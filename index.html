@@ -56,15 +56,18 @@
 
             </div>
 
+            
+        </div>
+        <div class="row justify-content-center">
             <nav id="ms_img-nav" class="col-8 d-flex pt-4 justify-content-around">
                 <div class="ms-icon-container" :class="(index === imgIndex) ? 'active' : ''" v-for="(image, index) in images" @click="navImg(index)">
                     <img :src="images[index].url"  alt="images[index].alt">
                 </div>
             </nav>
-            <div id="ma_img-description" class="col-8 text-center text-white pt-3">
+
+            <div id="ms_img-description" class="col-8 text-center text-white pt-3">
                 <h2>{{ images[imgIndex].alt }}</h2>
             </div>
-
         </div>
 
     </div>

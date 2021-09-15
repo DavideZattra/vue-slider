@@ -2,7 +2,7 @@
     
     height: 100vh;
     background-image: url(https://upload.wikimedia.org/wikipedia/en/e/ed/Nyan_cat_250px_frame.PNG);
-
+    overflow: hidden;
 }
 
 #ms_carousel>div{
@@ -76,4 +76,8 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+#ms_img-description{
+    height: 50px;
 }
