@@ -4,9 +4,13 @@ var app = new Vue(
 
 		data : {
 			images: [
-				{src : 'https://www.terranuova.it/var/terranuova/storage/images/news/attualita/cani-ecco-come-i-cuccioli-imparano-dall-uomo/1338268-1-ita-IT/Cani-ecco-come-i-cuccioli-imparano-dall-uomo_articleimage.jpg', alt : ''},
-				{src : 'https://lh3.googleusercontent.com/proxy/SgMrp8CZm9ExCy9hbi9aS_WXCPtE6ZYzLajLDS6xO1vKthvWLqIWSKrBpL5A8G5fWSKC_usvE4qinLtxAQ5Y3fhJzgu4w36n2831RODD5KpkirK1iO42m7-p_DJKayHNtopIx0ueR-WreYncCRZN7_tzFhJgDeDwsA7aWW8MLrm1YKduog', alt : ''}
-			],	
+				{url : 'img/puppie-1.jpg', alt : 'Border Collie Puppy'},
+				{url : 'img/puppie-2.jpg', alt : 'Labrador Chocolate Puppy'},
+				{url : 'img/puppie-3.jpg', alt : 'Puppy'},
+				{url : 'img/puppie-4.jpg', alt : 'Labrador Chocolate Puppy'},
+				{url : 'img/puppie-5.jpg', alt : 'Husky Puppy'},
+				{url : 'img/puppie-6.jpg', alt : 'Husky Puppy'},
+				{url : 'img/golden_lab_poo.jpeg', alt : 'Labrador Golden Puppy'},			],	
 
 			imgIndex : 0,
 		},
