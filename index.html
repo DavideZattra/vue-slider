@@ -21,8 +21,43 @@
 </head>
 <body>
 
-    <div id="app" >
-        
+    <div id="app" class="container-fluid">
+
+        <div class="row">
+            
+            <div class="col-12 text-center pt-5 ">
+                <h1 class="fw-bold">Cutest puppy images</h1>
+            </div>
+
+        </div>
+
+        <div id="ms_carousel" class="row justify-content-center pt-5 pb-5">
+
+            
+            <div id="ms_backwards-container" class="col-1 d-flex justify-content-center align-items-center">
+
+                <i class="fas fa-chevron-circle-left fs-1"></i>
+
+            </div>
+
+            <div id="ms_img-container" class="col-6 ">
+
+                <img :src="images[1].src" :alt="images[1].alt">
+
+                <div id="ms_slider">
+                    <i v-for="image in images" class="fas fa-circle p-1 fs-5"></i>
+                </div>
+
+            </div>
+
+            <div id="ms_forward-container" class="col-1 d-flex justify-content-center align-items-center">
+
+                <i class="fas fa-chevron-circle-right fs-1"></i>
+
+            </div>
+
+        </div>
+
     </div>
     
     <!-- js Import -->

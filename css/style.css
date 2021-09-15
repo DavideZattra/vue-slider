@@ -1,0 +1,52 @@
+#app{
+    
+    height: 100vh;
+    /* background-image: url(https://upload.wikimedia.org/wikipedia/en/e/ed/Nyan_cat_250px_frame.PNG); */
+
+}
+
+#ms_carousel>div{
+    height: 500px;
+}
+
+/* #ms_backwards-container,
+#ms_forward-container{
+    background-color: rgba(0,0,0,.20);
+} */
+
+#ms_backwards-container i,
+#ms_forward-container i{
+    color: rgba(0,0,0,.45);
+}
+
+#ms_img-container{
+    position: relative;
+    padding: 0 0;
+}
+
+#ms_img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#ms_slider{
+    position: absolute;
+    bottom: 2.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#ms_slider i{
+    color: rgba(0,0,0,.25);
+}
+
+#ms_backwards-container:hover,
+#ms_forward-container:hover{
+    background-color: rgba(0,0,0,.20);
+}
+
+#ms_backwards-container:hover i,
+#ms_forward-container:hover i{
+    color: white;
+}
