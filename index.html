@@ -56,7 +56,7 @@
 
             </div>
 
-            <nav id="ms_img-nav" class="col-8 d-flex pt-4">
+            <nav id="ms_img-nav" class="col-8 d-flex pt-4 justify-content-around">
                 <div class="ms-icon-container" :class="(index === imgIndex) ? 'active' : ''" v-for="(image, index) in images" @click="navImg(index)">
                     <img :src="images[index].url"  alt="images[index].alt">
                 </div>
