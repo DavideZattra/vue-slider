@@ -17,7 +17,7 @@ var app = new Vue(
 				},
 				{
 					url : 'img/puppie-4.jpg', 
-					alt : 'Labrador Chocolate Puppy'
+					alt : 'Another Labrador Chocolate Puppy'
 				},
 				{
 					url : 'img/puppie-5.jpg', 
@@ -25,11 +25,11 @@ var app = new Vue(
 				},
 				{
 					url : 'img/puppie-6.jpg', 
-					alt : 'Husky Puppy'
+					alt : 'Another Husky Puppy'
 				},
 				
 					{url : 'img/golden_lab_poo.jpeg', 
-					alt : 'Labrador Golden Puppy'
+					alt : 'Stop looking at me!!!'
 				},			
 			],	
 
