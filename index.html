@@ -36,13 +36,13 @@
             
             <div id="ms_backwards-container" class="col-1 d-flex justify-content-center align-items-center">
 
-                <i class="fas fa-chevron-circle-left fs-1"></i>
+                <i class="fas fa-chevron-circle-left fs-1" @click="previousImg"></i>
 
             </div>
 
             <div id="ms_img-container" class="col-6 ">
 
-                <img :src="images[1].src" :alt="images[1].alt">
+                <img :src="images[imgIndex].src" :alt="images[imgIndex].alt">
 
                 <div id="ms_slider">
                     <i v-for="image in images" class="fas fa-circle p-1 fs-5"></i>
@@ -52,7 +52,7 @@
 
             <div id="ms_forward-container" class="col-1 d-flex justify-content-center align-items-center">
 
-                <i class="fas fa-chevron-circle-right fs-1"></i>
+                <i class="fas fa-chevron-circle-right fs-1" @click="nextImg"></i>
 
             </div>
 
