@@ -25,8 +25,8 @@
 
         <div class="row">
             
-            <div class="col-12 text-center pt-5 ">
-                <h1 class="fw-bold">Cutest puppy images</h1>
+            <div class="col-12 text-center pt-4 ">
+                <h1 class="fw-bold text-white">Cutest puppy images</h1>
             </div>
 
         </div>
@@ -55,6 +55,12 @@
                 <i class="fas fa-chevron-circle-right fs-1" @click="nextImg()"></i>
 
             </div>
+
+            <nav id="ms_img-nav" class="col-8 d-flex pt-4">
+                <div class="ms-icon-container" :class="(index === imgIndex) ? 'active' : ''" v-for="(image, index) in images" @click="navImg(index)">
+                    <img :src="images[index].url"  alt="images[index].alt">
+                </div>
+            </nav>
 
         </div>
 
